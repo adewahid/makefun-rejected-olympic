@@ -10,5 +10,10 @@ import { writeFileSync, mkdirSync } from "node:fs";
 const entry =
   "Competitive Small Talk: two athletes discuss the weather for four hours straight — the first to mention the traffic is disqualified.";
 
-mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", entry + "\n");
+// Write the entry to the kit's output file, one line plus trailing newline.
+function writeEntry(text: string): void {
+  mkdirSync("/output", { recursive: true });
+  writeFileSync("/output/entry.txt", text + "\n");
+}
+
+writeEntry(entry);
