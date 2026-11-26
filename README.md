@@ -12,7 +12,7 @@ competition **Rejected Olympic Sports** (free entry, $2 reward pool).
 
 > Competitive Small Talk: two athletes discuss the weather for four hours straight — the first to mention the traffic is disqualified.
 
-`main.ts` writes that single line to `/output/entry.txt` (131 characters).
+`main.ts` writes that single line to `/output/entry.txt` (132 characters).
 
 ## Run it
 
